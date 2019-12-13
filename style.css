@@ -1,0 +1,37 @@
+#imagetest {
+   transform: rotate(90deg);
+  
+}
+.imgContainer {
+   padding: 50px;
+   float: left;
+   margin-left: -89px;
+   
+}
+
+section-h1 {
+   font-family: Georgia, Times New Roman, Times, serif;
+   font-size: 25px;
+   padding: 10px;
+   background-color: teal;
+   display: inline-block;
+}
+
+h2 {
+   position: relative;
+   color: teal;
+   font-size: 20px;
+}
+.headLinks {
+   display: inline-block;
+   font-size: 15px;
+}
+
+p {
+   word-wrap: break-word;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   font-family: Arial;
+}
