@@ -14,9 +14,9 @@
 }
 
 h1 {
-   font-family: Georgia, Times New Roman, Times, serif;
+   font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 25px;
-   padding: 10px;
+   padding: 20px;
    background-color: teal;
    display: inline-block;
 }
@@ -30,8 +30,8 @@ h2 {
 .headLinks {
    display: inline-block;
    font-size: 15px;
-   float: right;
    position: relative;
+   left: 800px;
 }
 
 p {
