@@ -15,39 +15,39 @@
 
 <body>
 
-    <body style="background-color: #ffffff">
-    </body>
 
-    <header>
-        <h1>Andrew Bolton</h1>
+
+    <nav >
+        <h1 class="navbar">Andrew Bolton</h1>
+
+        <ul>
+            <li class="right-nav"><a href="index.html">About</a></li>
+            <li class="right-nav"><a href="index.html">Portfolio</a></li>
+            <li class="right-nav"><a href="index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+
+        <p>Contact</p>
+
         <div>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="index.html">Contact</a></li>
+            <form action="/action_page.php">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" placeholder="Name..">
+
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="Email" placeholder="Email...">
+
+                <label for="Message">Message</label>
+                <input type="text" id="Message" name="Message" placeholder="Message...">
+
+                <input type="Submit" value="Submit">
+                <button>Submit</button>
+            </form>
         </div>
-    </header>
-
-    <div style="container">
-        <div style="background-color: #ffffff">
-        </div>
-        <div style="container">
-            <p>Contact</p>
-
-            <div>
-                <form action="/action_page.php">
-                    <label for="Name">Name</label>
-                    <input type="text" id="Name" name="Name" placeholder="Name..">
-
-                    <label for="Email">Email</label>
-                    <input type="text" id="Email" name="Email" placeholder="Email...">
-
-                    <label for="Message">Message</label>
-                    <input type="text" id="Message" name="Message" placeholder="Message...">
-
-                    <input type="Submit" value="Submit">
-                </form>
-            </div>
+    </div>
 
 </body>
 

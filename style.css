@@ -1,3 +1,9 @@
+body {
+   background-color: grey;
+   padding: 0;
+   margin: 0;
+}
+
 #imagetest {
    transform: rotate(90deg);
    display: block;
@@ -5,13 +11,26 @@
    margin-right: auto;
    width: 215px;
    position: relative;
-   right: 80px;
+   right: 55px;
    bottom: 15px;
 }
+
 .imgContainer {
    padding: 50px;
    float: left;
 }
+
+.header1 {
+   width: 100%;
+   background-color: #ffffff;
+   position: relative;
+}
+
+.myheader {
+   width: 960px;
+   margin: 0 auto;
+}
+
 
 h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,29 +38,50 @@ h1 {
    padding: 20px;
    background-color: teal;
    display: inline-block;
+   margin-left: 20px;
 }
 
 h2 {
    position: relative;
    color: teal;
    font-size: 20px;
+   margin-left: 20px;
 }
 
 .headLinks {
    display: inline-block;
-   font-size: 15px;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 30px;
+   left: 680px;
+}
+
+.maincontent {
+   width: 960px;
+   margin: 0 auto;
    position: relative;
-   left: 800px;
+}
+
+.nav-right {
+   float: left;
+   margin: 10px;
+}
+
+.myInfo {
+   background-color: #ffffff;
+   margin: 20px;
+   margin-right: 160px;
+   
 }
 
 p {
    margin-top: 10px;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;
+   width: 100%;
    font-family: Ariel;
    font-size: 20px;
    line-height: 25px;
    position: relative;
-   right: 160px;
+   right: 130px;
 }

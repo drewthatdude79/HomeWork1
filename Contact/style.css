@@ -1,32 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+ .navbar {
+    float: left;
+} 
+
+.right-nav {
+    float: right;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+}
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 input [type=text], div {
     width: 100%;
-    padding: 12px;
-    margin: 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 25%;
     background-color: #ffffff;
     color: white;
-    padding: 10px;
-    margin: 8px;
-    cursur: pointer;
 }
+
 input [type=submit]:hover {
     background-color: #ffffff;
 }
 
-div {
+/* div {
     border-radius: 5px;
     background-color: #dddddd;
     padding: 20px;
-}
+} */
