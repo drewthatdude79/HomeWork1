@@ -18,7 +18,7 @@ body {
 
 .headlinks {
     position: relative;
-    right: 10px;
+    right: 210px;
     bottom: 100px;
     margin: 0 auto;
 }
@@ -26,6 +26,7 @@ body {
     float: right;
     margin: 20px;
     list-style-type: none;
+    margin-right: 20px;
 }
 
 .container {
@@ -33,14 +34,15 @@ body {
     height: 350px;
     font-size: 20px;
     position: relative;
+    left: 160px;
     display: inline-block;
     background-color: #ffffff;
     color: teal;
     margin: 20px;
-    margin-left: 66px;
 }
 
 .contactinfo {
+    width: 75%;
     margin: 0;
     padding: 0;
     float: left;
@@ -51,7 +53,11 @@ h1 {
     background-color: #4aaaa5;
     display: inline-block;  
     font-size: 30px; 
-    margin-left: 65px;
+    margin-left: 180px;
+}
+
+input {
+    width: 100%
 }
 
 input [type=text] {
